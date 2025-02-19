@@ -1,0 +1,30 @@
+{
+    "configurations": [
+      {
+        "name": "macos-gcc-x64",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/usr/local/include/**"
+        ],
+        "defines": [],
+        "compilerPath": "/usr/local/bin/g++",
+        "cStandard": "c17",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "gcc-x64",
+        "browse": {
+          "path": [
+            "${workspaceFolder}/**",
+            "/usr/local/include/**"
+          ],
+          "limitSymbolsToIncludedHeaders": true,
+          "databaseFilename": ""
+        },
+        "compilerArgs": [
+          "-Wall",
+          "-Wextra",
+          "-Wpedantic"
+        ]
+      }
+    ],
+    "version": 4
+  }
